@@ -53,13 +53,3 @@ export default function NavBar() {
 //App Component App Page
 
 //app 컴포넌트 - 모든페이지 렌더링( next.js) =>
-
-//키 숨기기
-
-// const api=axios.create({
-//   baseURL:"https://api.themoviedb.org",
-//   params:{
-//       api_key:"13dce73d621a57563589d58029a15906",
-//       language:"en-US"
-//   }
-// })
