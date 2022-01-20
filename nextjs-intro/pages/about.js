@@ -1,9 +1,14 @@
+import Head from "next/head";
 import NavBar from "../components/NavBar";
+import Seo from "../components/Seo";
 
 export default function test() {
   return (
-    <div>
-      <h1>About Pages</h1>
-    </div>
+    <>
+      <Seo title="About" />
+      <div>
+        <h1>About Pages</h1>
+      </div>
+    </>
   );
 }
